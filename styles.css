@@ -1,0 +1,141 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    line-height: 1.7;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    color: #222;
+}
+
+#home p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* About Section */
+#about h2 {
+    font-size: 1.8rem;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Projects Section */
+#projects h2 {
+    font-size: 1.8rem;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.project {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.4rem;
+    color: #222;
+    margin-top: 1rem;
+}
+
+.project p {
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.project a:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+}
